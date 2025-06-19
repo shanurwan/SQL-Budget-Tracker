@@ -106,6 +106,16 @@ If you're starting with **PDF bank statements**, you can extract them to CSV for
 
 ---
 
+### Example CSV Format (Expected)
+
+| txn_date   | description             | debit   | credit  | balance  |
+|------------|--------------------------|---------|---------|----------|
+| 2024-12-03 | TESCO Store - PJ         | 43.21   |         | 1320.55  |
+| 2024-12-04 | Salary - Company XYZ     |         | 3000.00 | 4320.55  |
+
+> 💡 You can import this into the `transactions` table using `LOAD DATA INFILE` or MySQL Workbench.
+
+
 ## 🧾 Example Use Cases
 - Track where your money actually goes
 
@@ -116,15 +126,6 @@ If you're starting with **PDF bank statements**, you can extract them to CSV for
 - Beginner Friendly SQL automation practice
 
 ---
-
-### Example CSV Format (Expected)
-
-| txn_date   | description             | debit   | credit  | balance  |
-|------------|--------------------------|---------|---------|----------|
-| 2024-12-03 | TESCO Store - PJ         | 43.21   |         | 1320.55  |
-| 2024-12-04 | Salary - Company XYZ     |         | 3000.00 | 4320.55  |
-
-> 💡 You can import this into the `transactions` table using `LOAD DATA INFILE` or MySQL Workbench.
 
 
 ## 📚 Technologies Used
