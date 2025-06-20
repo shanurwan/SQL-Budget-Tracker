@@ -69,7 +69,7 @@ It’s a great learning ground for aspiring Data Analysts, BI Developers, or SQL
 ✅ Auto-categorizes transactions using keyword rules  
 ✅ Tracks monthly spending vs. budget  
 ✅ Logs overspending events for audit  
-✅ Self-runs daily using MySQL Event Scheduler  
+✅ Self-runs using MySQL Event Scheduler  
 ✅ No external scripts or dependencies — pure MySQL logic
 
 ---
