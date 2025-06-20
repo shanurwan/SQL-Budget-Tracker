@@ -22,9 +22,8 @@ A fully-automated personal finance audit engine powered entirely by MySQL.
 ## 🛢️ Why MySQL?
 
 ### ✅ No-code, Transparent Logic
-Unlike black-box budgeting apps, MySQL offers full visibility and control.
-
-Budgeting rules, categorizations, and alerts are stored as logic, not hidden features.
+Unlike budgeting apps that hide how things work behind the scenes, this system runs entirely on visible, customizable SQL rules.
+You can see, edit, and control how transactions are categorized, how budgets are set, and how overspending is flagged
 
 ### ✅ Native Automation
 With features like Triggers, Stored Procedures, and Event Scheduler, MySQL enables:
