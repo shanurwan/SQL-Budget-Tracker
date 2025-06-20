@@ -104,8 +104,8 @@ It’s a great learning ground for aspiring Data Analysts, BI Developers, or SQL
 1. **Create all tables & triggers:**
 
 ```sql
--- Clone this repo, copy SQL files, or run schema manually
--- Run each section from schema.sql in your MySQL instance
+-- Copy the code from the sql file (step by step guide provided in the sql file)
+-- Run each section in your MySQL instance
 ```
 2. **Enable event Scheduler**
 
