@@ -147,6 +147,10 @@ If you're starting with **PDF bank statements**, you can extract them to CSV for
 
 🔗 [PDF-to-CSV Converter (Python Script)](https://github.com/shanurwan/PDF-to-CSV)
 
+Make sure to clean the csv file first before you load into MySQL, sample data cleaning :
+
+🔗 [Sample Bank Transaction Data Cleaning](https://github.com/shanurwan/SQL-Budget-Tracker/blob/main/Clean%20Bank%20Transaction.ipynb)
+
 ---
 
 ### Example CSV Format (Expected)
