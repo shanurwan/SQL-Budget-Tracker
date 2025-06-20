@@ -2,7 +2,6 @@
 
 **Build your own Personal CFO.**  
 A fully-automated personal finance audit engine powered entirely by MySQL.  
-No Python. No spreadsheets. Just native SQL: triggers, procedures, and scheduled audits.
 
 ---
 
