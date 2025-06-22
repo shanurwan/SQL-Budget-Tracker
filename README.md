@@ -1,4 +1,4 @@
-# 💸 MySQL-Powered Self-Auditing Budget Tracker
+# 💸 MySQL Powered Self-Auditing Budget Tracker
 
 **Build your own Personal CFO.**  
 A fully-automated personal finance audit engine powered entirely by MySQL.  
