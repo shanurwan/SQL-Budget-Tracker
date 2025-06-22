@@ -57,8 +57,6 @@ This project demonstrates skills used in professional data systems:
 
 - Daily audit pipelines
 
-It’s a great learning ground for aspiring Data Analysts, BI Developers, or SQL Engineers.
-
 💡 Think of it as a lightweight, offline, customizable Personal Finance Engine, powered entirely by SQL.
 
 ---
@@ -90,13 +88,17 @@ It’s a great learning ground for aspiring Data Analysts, BI Developers, or SQL
 
 ## 🧠 How It Works
 
-1. Import your bank data into `transactions` table.
-2. Descriptions are categorized using `category_rules` (trigger or manual).
-3. Budgets for each category are defined in `monthly_budget`.
-4. Every day, `sp_run_budget_audit` checks actual spending vs. budget.
-5. Over-budget results are inserted into `budget_audit_log`.
-6. You get a clean, queryable audit history — no spreadsheets required.
+- Import your bank CSV into the transactions table
 
+- Descriptions are tagged via the keyword-based `category_rules` trigger
+
+- Budgets are defined in `monthly_budget`
+
+- The audit procedure checks spending only for transactions added since the last audit
+
+- If overspending is detected, it's logged in `budget_audit_log` automatically
+
+- You get a clean, structured history. No spreadsheets or apps needed
 ---
 
 ## 🛠️ Setup Instructions
@@ -166,9 +168,9 @@ Make sure to clean the csv file first before you load into MySQL, sample data cl
 ## 🧾 Example Use Cases
 - Track where your money actually goes
 
-- Get alerts when you're over your food/delivery/online shopping budget
+- Catch when you’re overspending on food, delivery, or online shopping
 
-- Build a financial habit of reviewing monthly burn without touching Excel
+- Build a financial habit of reviewing monthly burn 
 
 - Beginner Friendly SQL automation practice
 
