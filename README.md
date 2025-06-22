@@ -13,7 +13,7 @@ A fully-automated personal finance audit engine powered entirely by MySQL.
 
 🔁 **Provide a fully reproducible system** that anyone can replicate, modify, or scale using just MySQL.
 
-💼 **Demonstrate practical SQL automation techniques** — including triggers, procedures, and event scheduling 
+💼 **Practical beginner learning playground to master SQL automation techniques** — including triggers, procedures, and event scheduling 
 
 🧠 **Help users gain financial clarity** by surfacing patterns, overspending habits, and monthly summaries in a structured, queryable format.
 
