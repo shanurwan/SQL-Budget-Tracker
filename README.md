@@ -34,7 +34,7 @@ With features like Triggers, Stored Procedures, and Event Scheduler, MySQL enabl
 
 - Clean separation of data, logic, and logs
 
-- No Python scripts, no external schedulers — just pure SQL automation.
+- No Python scripts, no external schedulers just pure SQL automation.
 
 ### ✅ Beginner-Friendly & Reproducible
 Anyone with basic SQL knowledge can:
@@ -43,7 +43,7 @@ Anyone with basic SQL knowledge can:
 
 - Modify logic to fit personal needs
 
-- Run it on any MySQL-supported machine (including free hosting or Docker)
+- Run it on any MySQL-supported machine 
 
 ### ✅Security by Simplicity
 Since no external code or APIs are involved, your sensitive financial data never leaves your local machine or trusted MySQL instance. This drastically reduces the risk of data leaks compared to cloud-based budgeting apps.
