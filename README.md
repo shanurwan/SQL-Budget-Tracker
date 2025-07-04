@@ -180,7 +180,7 @@ Make sure to clean the csv file first before you load into MySQL, sample data cl
 ## 📚 Technologies Used
 MySQL 8.0+
 
-Native SQL: TRIGGER, PROCEDURE, EVENT, VIEW
+Native SQL: TRIGGER, PROCEDURE, EVENT
 
 Bank data in CSV format (any bank)
 
